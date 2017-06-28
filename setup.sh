@@ -17,7 +17,7 @@ fi
 
 # githubの設定をする
 pushd $1 > /dev/null 2>&1
-git config user.name "$name$"
-git config user.email "$email$"
+git config user.name "{{NAME}}"
+git config user.email "{{EMAIL}}"
 popd > /dev/null 2>&1
 exit 0
